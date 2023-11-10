@@ -1,6 +1,6 @@
 # Пишем плохой Dockerfile
 
-![img.png](img.png)
+![img.png](Screenshots/img.png)
 
 Плохие практики:
 1. Использование образа Ubuntu, вместо образа OpenJDK
