@@ -20,4 +20,4 @@
 
 Результат представлен на рисунке 1.4
 
-![Рисунок 1.4]](Screenshots/result.jpg)
+![Рисунок 1.4](Screenshots/result.jpg)
