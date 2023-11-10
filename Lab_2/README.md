@@ -11,6 +11,7 @@
 ![2.png](Screenshots/2.png)
 
 Размер контейнера:
+
 ![3.png](Screenshots/3.png)
 
 Запуск контейнера:
@@ -33,6 +34,7 @@
 ![6.png](Screenshots/6.png)
 
 Размер контейнера:
+
 ![7.png](Screenshots/7.png)
 
 Запуск контейнера:
