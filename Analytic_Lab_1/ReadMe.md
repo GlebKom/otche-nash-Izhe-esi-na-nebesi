@@ -51,6 +51,26 @@ Amazon SES - экономичный, гибкий и масштабируемы�
 ### Amazon SNS
 Amazon SNS - это управляемый сервис отправки сообщений для установления связи, который обеспечивает обмен сообщениями между изолированными приложениями на базе микросервисов или непосредственно с пользователями через SMS, мобильные push-уведомления и электронную почту
 
+
+## Маппинг
+
+| AWS Service          | Yandex.Cloud Service    |
+|----------------------|------------------------|
+| AmazonElastiCache     | Yandex Managed Service for Redis |
+| AmazonES             | Yandex Managed Service for Elasticsearch |
+| AmazonQLDB          | Нет точного аналога |
+| awskms               | Yandex Key Management Service |
+| CloudHSM             | Нет точного аналога |
+| AmazonRekognition    | Yandex Vision            |
+| AmazonTextract       | Нет точного аналога            |
+| AmazonLex            | Yandex SpeechKit       |
+| AWSCodePipeline      | Yandex Cloud CI/CD      |
+| AmazonSES            | Yandex Mail for Domain  |
+| AmazonSNS            | Yandex Message Queue   |
+
+
+## Итоговая таблица
+
 | IT Tower           | Service Family        | Service Type           | Service Usage Type       | Product Code          | Usage Type                   | [lineItem/Operation]          | lineItem/LineItemDescription         |
 |--------------------|-----------------------|------------------------|--------------------------|-----------------------|------------------------------|-------------------------------|-------------------------------------|
 | Storage            | Database              | ElastiCache            | Tax                      | AmazonElastiCache     |                              | Tax%                          |                                   |
@@ -96,3 +116,7 @@ Amazon SNS - это управляемый сервис отправки соо�
 | EndUser            | App Integration       | SNS                    | Sent SMS count            | AmazonSNS             | %SMS-Sent%                   |                               |                                   |
 | EndUser            | App Integration       | SNS                    | Delivety via APN          | AmazonSNS             | %DeliveryAttempts-APNS%      |                               |                                   |
 | EndUser            | App Integration       | SNS                    | Delivery via LAMBDA        | AmazonSNS             | %DeliveryAttempts-LAMBDA     |                               |                                   |
+
+
+## Вывод
+Лабораторная работа по сравнению сервисов AWS и Yandex Cloud позволила лучше понять, как обе облачные платформы предоставляют похожие услуги для решения разных задач и обеспечения работы. В общем, это сравнение помогло осознать, как можно эффективно использовать оба облачных провайдера для достижения бизнес-целей.
